@@ -620,6 +620,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   line-height: 1em;
+  padding: 10vw;
 }
 
 h1 {
@@ -642,5 +643,40 @@ p {
 
 p span {
   display: inline-block;
+}
+
+.emoji-spin {
+  font-size: 20vmin;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  line-height: 1.8em;
+  -webkit-animation-duration: 3000ms;
+          animation-duration: 3000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=main.css.map */
