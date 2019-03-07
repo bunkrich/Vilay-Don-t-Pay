@@ -595,8 +595,6 @@ textarea {
 
 html {
   background: black;
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(var(--dark)));
-  background: linear-gradient(black, var(--dark));
 }
 
 body {
