@@ -8,7 +8,9 @@
     --tan: #fcfcfc;
     --yellow: #f4e04d;
 }
-
+html {
+    background: black;
+}
 body {
     font-family: 'Bitter', serif;
     background: var(--dark);
