@@ -42,4 +42,9 @@ h2 {
 p {
     font-weight: 100;
     color: var(--tan);
+    text-align: center;
+    line-height: normal;
+    span {
+        display: inline-block;
+    }
 }
