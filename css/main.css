@@ -595,6 +595,8 @@ textarea {
 
 html {
   background: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(var(--dark)));
+  background: linear-gradient(black, var(--dark));
 }
 
 body {
@@ -603,7 +605,7 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(var(--dark)));
   background: linear-gradient(black, var(--dark));
   color: var(--yellow);
-  height: 100vh;
+  min-height: 100vh;
   display: -ms-grid;
   display: grid;
   justify-items: center;

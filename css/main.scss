@@ -10,13 +10,14 @@
 }
 html {
     background: black;
+    background: linear-gradient(black, var(--dark));
 }
 body {
     font-family: 'Bitter', serif;
     background: var(--dark);
     background: linear-gradient(black, var(--dark));
     color: var(--yellow);
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     justify-items: center;
     align-items: center;
