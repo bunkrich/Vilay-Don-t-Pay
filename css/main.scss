@@ -1,0 +1,45 @@
+@import "_normalize";
+@import "_main";
+
+:root {
+    --dark: #042a2b;
+    --blue: #5eb1bf;
+    --li-blue: #54f2f2;
+    --tan: #fcfcfc;
+    --yellow: #f4e04d;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    background: var(--dark);
+    background: linear-gradient(black, var(--dark));
+    color: var(--yellow);
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.trash {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    line-height: 1em;
+
+}
+
+h1 {
+    color: var(--li-blue);
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 8vw;
+    font-weight: 100;
+}
+
+p {
+    font-weight: 100;
+    color: var(--tan);
+}
