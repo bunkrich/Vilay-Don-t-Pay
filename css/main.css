@@ -683,4 +683,8 @@ p span {
             transform: rotate(360deg);
   }
 }
+
+div img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
