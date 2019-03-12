@@ -634,6 +634,10 @@ h2 {
   font-weight: 100;
 }
 
+h3 {
+  text-align: center;
+}
+
 p {
   font-weight: 100;
   color: var(--tan);
